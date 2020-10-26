@@ -2,8 +2,8 @@
   <h1 align="center">Internet and Web Programming Lab Codes</h1>
 </code>
 
-Vellore Institute of Technology
+#### Vellore Institute of Technology
 
-JAYAKUMAR K
+#### JAYAKUMAR K
 
-Fall Semester 2020-21
+#### Fall Semester 2020-21
