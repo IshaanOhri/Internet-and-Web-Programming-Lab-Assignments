@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AJAX</title>
+    <script>
+      function loadD() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            cal();
+          } else {
+            cal();
+          }
+        };
+        xhttp.open("GET", true);
+        xhttp.send();
+      }
+      function cal() {
+        var i = document.getElementById("number").value;
+        var disp = document.getElementById("pm");
+        if (i.length == 4) {
+          if (i[i.length - 1] == 7) {
+            disp.innerHTML = "You Won Rs 1000";
+          } else if (i[i.length - 1] == 9) {
+            disp.innerHTML = "You Won Rs 3000";
+          } else {
+            disp.innerHTML = "You Won Rs 100";
+          }
+        } else {
+          disp.innerHTML = "Please Enter 4 Digit number";
+        }
+      }
+    </script>
+  </head>
+  <body style="background-color: #7fffd4">
+    <h1 align="center"><u>AJAX - Jackpot Question</u></h1>
+    <h4 align="center">Submitted By : 18BCE0265 ISHAAN OHRI</h4>
+    <br /><br />
+    <label for="nu" align="center">Enter a 4 Digit Number.</label>
+    <input type="text" id="number" />
+    <button onclick="loadD()">Submit</button>
+    <h3 id="pm"></h3>
+  </body>
+</html>

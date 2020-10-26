@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>18BCE0265 IWP Lab DA - 1</title>
+  </head>
+  <style>
+    body {
+      background-color: rgb(20, 20, 20);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(16, 229, 125);
+    }
+    h1 {
+      font-size: 3em;
+    }
+    #nameHeading,
+    #regNoHeading,
+    #emailHeading,
+    #mobNoHeading,
+    #ideaHeading,
+    #yearHeading,
+    #branchHeading,
+    #domainHeading {
+      font-size: 1.2em;
+      font-weight: 700;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #name,
+    #regNo,
+    #email,
+    #mobNo,
+    #idea {
+      height: auto;
+      width: auto;
+      padding: 5px 10px 5px 10px;
+      text-transform: capitalize;
+      background-color: rgb(20, 20, 20);
+      border: 2px solid rgb(156, 156, 156);
+      border-radius: 5px;
+      color: white;
+      font-size: 1.2em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #mobPrefix {
+      border: 1px solid rgb(156, 156, 156);
+      border-radius: 5px;
+    }
+    div,
+    #first,
+    #second,
+    #third,
+    #fourth {
+      font-size: 1.2em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  </style>
+  <body>
+    <h1 align="center">Hackathon Registration</h1>
+    <form action="submit" method="post">
+      <table align="center" cellpadding="10">
+        <tr>
+          <td><label id="nameHeading" for="name">Name</label><br /></td>
+          <td>
+            <input type="text" id="name" name="name" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label id="regNoHeading" for="regNo">Registration Number</label
+            ><br />
+          </td>
+          <td>
+            <input
+              type="text"
+              id="regNo"
+              name="regNo"
+              style="text-transform: uppercase"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label id="emailHeading" for="email">VIT Email</label><br /></td>
+          <td>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              style="text-transform: lowercase"
+              pattern="[1-9]{2}[A-Z]{3}[0-9]{3}[1-9]"
+              title="Enter valid registration number"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label id="mobNoHeading" for="mobNo">Mobile Number</label><br />
+          </td>
+          <td>
+            <input
+              type="text"
+              id="mobNo"
+              name="mobNo"
+              pattern="[1-9][0-9]{9}"
+              title="Enter valid mobile number"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label id="ideaHeading" for="ideaHeading">Idea Description</label
+            ><br />
+          </td>
+          <td>
+            <textarea
+              type="text"
+              id="idea"
+              name="idea"
+              cols="25"
+              rows="5"
+              required
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label id="yearHeading" for="yearHeading">Year</label><br /></td>
+          <td>
+            <label id="first" for="">First</label>
+            <input name="year" type="radio" value="first" checked />
+            <label id="second" for="">Second</label>
+            <input name="year" type="radio" value="second" />
+            <label id="third" for="">Third</label>
+            <input name="year" type="radio" value="thirst" />
+            <label id="fourth" for="">Fourth</label>
+            <input name="year" type="radio" value="fourth" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label id="branchHeading" for="branch">Branch</label>
+          </td>
+          <td>
+            <select name="branch">
+              <option>Computer Science Engineering</option>
+              <option>Information Technology Engineering</option>
+              <option>Electronics and Communication Engineering</option>
+              <option>Electronics and Electrical Engineering</option>
+              <option>Electronics and Instrumentation Engineering</option>
+              <option>Civil Engineering</option>
+              <option>Chemical Engineering</option>
+              <option>Mechanical Engineering</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label id="domainHeading">Domain</label>
+          </td>
+          <td>
+            <div id="checkbox">
+              <label for="">Backend</label>
+              <input name="role" class="role" type="checkbox" value="backend" />
+              <label for="">Web</label>
+              <input name="role" class="role" type="checkbox" value="web" />
+              <label for="">App</label>
+              <input name="role" type="checkbox" value="app" />
+              <label for="">Designer</label>
+              <input name="role" type="checkbox" value="designer" />
+              <label for="">Other</label>
+              <input name="role" type="checkbox" value="other" />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Clear" />
+          </td>
+        </tr>
+      </table>
+      <table align="center" cellpadding="20">
+        <tr>
+          <td>
+            <iframe
+              width="600"
+              height="300"
+              src="https://www.youtube.com/embed/DPnqb74Smug"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <p style="text-align: center">
+      <img src="./banner.jpg" height="150" align="center" />
+    </p>
+  </body>
+</html>

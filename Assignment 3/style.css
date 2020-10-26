@@ -1,0 +1,20 @@
+p {
+  font-family: sans-serif;
+  line-height: 40px;
+  text-align: center;
+}
+.veg {
+  background-color: lightgreen;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.meat {
+  background-color: tomato;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.dairy {
+  background-color: yellow;
+  padding-left: 10px;
+  padding-right: 10px;
+}
