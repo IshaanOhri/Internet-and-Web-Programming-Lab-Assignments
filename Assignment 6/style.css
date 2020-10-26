@@ -1,0 +1,23 @@
+div {
+  background-color: white;
+  padding: 50px;
+  font-size: 40px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body {
+  background-color: tomato;
+}
+button {
+  background-color: tomato;
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+}
+input {
+  font-size: 40px;
+  text-align: center;
+}

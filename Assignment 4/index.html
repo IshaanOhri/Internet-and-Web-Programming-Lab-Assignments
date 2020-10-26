@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>18BCE0265 IWP Lab DA - 4</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1 align="center">Insurance Details</h1>
+    <div>
+      <form
+        id="insurance-form"
+        onsubmit="submitForm()"
+        action="submit"
+        method="POST"
+      >
+        First Name:
+        <input type="text" id="first-name" required />
+        <br /><br />
+        Last Name:
+        <input type="text" id="last-name" required />
+        <br /><br />
+        Date of Birth (DD/MM/YYYY):
+        <input type="date" id="dob" onblur="calculateAge()" required />
+        <br /><br />
+        Age:
+        <input type="number" id="age" />
+        <br /><br />
+        Gender:
+        <input type="radio" name="gender" value="male" checked />Male
+        <input type="radio" name="gender" value="female" />Female
+        <input type="radio" name="gender" value="other" />Other <br /><br />
+        Email ID:
+        <input
+          type="email"
+          id="email"
+          required
+          style="text-transform: lowercase"
+        />
+        <br /><br />
+        Mobile Number:
+        <input type="text" id="mobile" required />
+        <br /><br />
+        Address:
+        <textarea id="address" rows="5" cols="30" required></textarea>
+        <br /><br />
+        Pincode:
+        <input type="text" id="pincode" required />
+        <br /><br />
+        Do you have any Health Problems ?
+        <input type="radio" name="health" value="yes" />Yes
+        <input type="radio" name="health" value="no" checked />No<br /><br />
+        List health problems if any :
+        <textarea id="health-problems" rows="5" cols="30"></textarea>
+        <br /><br />
+        <input type="submit" value="Validate" /> <br />
+      </form>
+    </div>
+  </body>
+</html>

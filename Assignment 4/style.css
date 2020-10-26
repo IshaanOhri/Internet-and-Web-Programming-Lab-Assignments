@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(20, 20, 20);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(16, 229, 125);
+}
+form {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input {
+  height: auto;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  text-transform: capitalize;
+  background-color: rgb(20, 20, 20);
+  border: 2px solid rgb(156, 156, 156);
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+textarea {
+  padding: 5px 10px 5px 10px;
+  text-transform: capitalize;
+  background-color: rgb(20, 20, 20);
+  border: 2px solid rgb(156, 156, 156);
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

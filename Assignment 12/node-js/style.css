@@ -1,0 +1,19 @@
+div {
+  padding: 40px;
+  background-color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+input {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin: 20px;
+}
+body {
+  background-color: coral;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+}

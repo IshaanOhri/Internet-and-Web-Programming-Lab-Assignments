@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>18BCE0265 ISHAAN OHRI</title>
+  </head>
+  <body>
+    <p>CLICK ON FIELDING POSITION TO KNOW MORE INFORMATION</p>
+
+    <img
+      src="ground.png"
+      width="674"
+      height="674"
+      alt="Planets"
+      usemap="#fielding-position"
+    />
+    <map name="fielding-position">
+      <area
+        shape="rect"
+        coords="315,240,355,280"
+        alt="keeper"
+        onclick="keeper()"
+      />
+      <area
+        shape="rect"
+        coords="200,460,240,500"
+        alt="mid-off"
+        onclick="midoff()"
+      />
+      <area
+        shape="rect"
+        coords="460,300,500,340"
+        alt="mid-wicket"
+        onclick="midwicket()"
+      />
+      <area
+        shape="rect"
+        coords="180,300,220,340"
+        alt="point"
+        onclick="point()"
+      />
+      <area
+        shape="rect"
+        coords="450,90,490,130"
+        alt="fine-leg"
+        onclick="fineleg()"
+      />
+      <area
+        shape="rect"
+        coords="100,140,140,180"
+        alt="third-man"
+        onclick="thirdman()"
+      />
+    </map>
+
+    <iframe
+      id="iframe"
+      height="400"
+      width="400"
+      style="border: 1px solid white"
+    ></iframe>
+  </body>
+
+  <script>
+    function keeper() {
+      document.getElementById("iframe").src = "keeper.html";
+    }
+    function midoff() {
+      document.getElementById("iframe").src = "mid-off.html";
+    }
+    function midwicket() {
+      document.getElementById("iframe").src = "mid-wicket.html";
+    }
+    function point() {
+      document.getElementById("iframe").src = "point.html";
+    }
+    function fineleg() {
+      document.getElementById("iframe").src = "fine-leg.html";
+    }
+    function thirdman() {
+      document.getElementById("iframe").src = "third-man.html";
+    }
+  </script>
+</html>

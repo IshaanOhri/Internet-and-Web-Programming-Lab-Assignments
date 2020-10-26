@@ -1,0 +1,29 @@
+#news {
+  width: 1000px;
+  margin: 0 auto;
+  padding-left: 15%;
+  padding-right: 20%;
+  display: inline-block;
+}
+
+#left {
+  display: inline-block;
+}
+
+#right {
+  display: inline-block;
+}
+
+#change-left {
+  background-color: brown;
+  color: white;
+  margin-left: 20%;
+  font-size: medium;
+}
+
+#change-right {
+  background-color: brown;
+  color: white;
+  margin-left: 20%;
+  font-size: medium;
+}
