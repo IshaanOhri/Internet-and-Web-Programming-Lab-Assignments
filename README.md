@@ -3,9 +3,9 @@
 </code>
 
 <div align="center">
-  <img src="https://img.shields.io/github/repo-size/IshaanOhri/Template?logo=github" hspace="5">
-  <img src="https://img.shields.io/github/license/IshaanOhri/Template" hspace="5">
-  <img src="https://img.shields.io/github/last-commit/IshaanOhri/Template?logo=git">
+  <img src="https://img.shields.io/github/repo-size/IshaanOhri/Internet-and-Web-Programming-Lab-Assignments?logo=github" hspace="5">
+  <img src="https://img.shields.io/github/license/IshaanOhri/Internet-and-Web-Programming-Lab-Assignments" hspace="5">
+  <img src="https://img.shields.io/github/last-commit/IshaanOhri/Internet-and-Web-Programming-Lab-Assignments?logo=git">
 </div>
 
 <br>
